@@ -13,3 +13,7 @@ function fill(collection, minValue, maxValue) {
     collection[i] = getInteger(minValue, maxValue);
   }
 }
+
+function print(text, collection) {
+  document(`${text} ${collection}<br>`);
+}
