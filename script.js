@@ -15,5 +15,5 @@ function fill(collection, minValue, maxValue) {
 }
 
 function print(text, collection) {
-  document(`${text} ${collection}<br>`);
+  document.write(`${text} ${collection}<br>`);
 }
