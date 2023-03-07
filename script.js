@@ -12,6 +12,7 @@ function fill(collection, minValue, maxValue) {
   for (let i = 0; i < collection.length; i++) {
     collection[i] = getInteger(minValue, maxValue);
   }
+  collection = collection.sort((x, y) => x - y);
 }
 
 function print(text, collection) {
