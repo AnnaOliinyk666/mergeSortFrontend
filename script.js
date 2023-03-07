@@ -6,3 +6,10 @@ function createArray(n) {
   return Array.from({ length: n },
     (_, i) => 0);
 }
+
+function fill(collection, minValue, maxValue) {
+  let size = collection.length;
+  for (let i = 0; i < collection.length; i++) {
+    collection[i] = getInteger(minValue, maxValue);
+  }
+}
